@@ -3,7 +3,7 @@
 <ul>
   <% @chromepicks.each do |chromepick| %>
     <li>
-      <%= chromepick.title %>
+      <%= link_to chromepick.title, chromepick %>
     <li>
   <% end %>
 </ul>
