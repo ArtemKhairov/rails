@@ -1,0 +1,2 @@
+class Chromepick < ApplicationRecord
+end

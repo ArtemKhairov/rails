@@ -1,2 +1,9 @@
-<h1>Chromepick#index</h1>
-<p>Find me in app/views/chromepick/index.html.erb</p>
+<h1>Chrom pom pom</h1>
+
+<ul>
+  <% @chromepicks.each do |chromepick| %>
+    <li>
+      <%= chromepick.title %>
+    <li>
+  <% end %>
+</ul>
